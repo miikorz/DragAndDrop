@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="bootstrap/CSS/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="bootstrap/CSS/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="bootstrap/js/bootstrap.min.js"></script>      
+        <!-- Jquery -->        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/CSS/reset.css">
+        <link href="bootstrap/CSS/own.css" rel="stylesheet" type="text/css"/>
+        <script src="js/puzzle.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div id="IdHuecoCaja1" id-hueco-caja="1" class="col-xs-3 puzzle" ondrop="onDropHuecoCaja(event)" ondragover="onDragOverHuecoCaja(event)">
+                    <img id="pieza1" class="img-responsive" src="img/grid1.png" draggable="true" ondragstart="onDragStartPieza(event)"> 
+                </div>
+                <div id="IdHuecoCaja2" id-hueco-caja="2" class="col-xs-3 puzzle" ondrop="onDropHuecoCaja(event)" ondragover="onDragOverHuecoCaja(event)">
+                    <img id="pieza2" class="img-responsive" src="img/grid2.png" draggable="true" ondragstart="onDragStartPieza(event)"> 
+                </div>
+                <div id="IdHuecoCaja3" id-hueco-caja="3" class="col-xs-3 puzzle" ondrop="onDropHuecoCaja(event)" ondragover="onDragOverHuecoCaja(event)">
+                    <img id="pieza3" class="img-responsive" src="img/grid3.png" draggable="true" ondragstart="onDragStartPieza(event)"> 
+                </div>
+                <div id="IdHuecoCaja4" id-hueco-caja="4" class="col-xs-3 puzzle" ondrop="onDropHuecoCaja(event)" ondragover="onDragOverHuecoCaja(event)">
+                    <img id="pieza4" class="img-responsive" src="img/grid4.png" draggable="true" ondragstart="onDragStartPieza(event)"> 
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row">
+                <div id="IdHuecoTablero1" id-hueco-tablero="1" class="col-xs-3 col-xs-offset-3 puzzle" ondrop="onDropHuecoTablero(event)" ondragover="onDragOverHuecoTablero(event)">
+                </div>
+                <div id="IdHuecoTablero2" id-hueco-tablero="2" class="col-xs-3 puzzle" ondrop="onDropHuecoTablero(event)" ondragover="onDragOverHuecoTablero(event)">
+                </div>
+            </div>
+            <div class="row">
+                <div id="IdHuecoTablero3" id-hueco-tablero="3" class="col-xs-3 col-xs-offset-3 puzzle" ondrop="onDropHuecoTablero(event)" ondragover="onDragOverHuecoTablero(event)">
+                </div>
+                <div id="IdHuecoTablero4" id-hueco-tablero="4" class="col-xs-3 puzzle" ondrop="onDropHuecoTablero(event)" ondragover="onDragOverHuecoTablero(event)">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

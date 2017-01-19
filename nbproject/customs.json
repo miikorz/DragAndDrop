@@ -1,0 +1,11 @@
+{
+    "elements": {},
+    "attributes": {
+        "id-hueco-caja": {
+            "context": "div"
+        },
+        "id-hueco-tablero": {
+            "context": "div"
+        }
+    }
+}
