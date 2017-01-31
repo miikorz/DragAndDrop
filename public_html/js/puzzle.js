@@ -1,4 +1,4 @@
-function Puzzle() {
+ function Puzzle() {
     this.numPiezas = 4;
     this.estado;
     this.reset();
